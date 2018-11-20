@@ -40,11 +40,11 @@
         <div class="w3-bar">
                 <div>
                     <a href="index.php" class="w3-button  w3-theme">หน้าแรก</a>
-                    <a href="" class="w3-button  w3-theme">สินค้าของเรา</a>
+                    <a href="product.php" class="w3-button  w3-theme">สินค้าของเรา</a>
                     <a href="" class="w3-button  w3-theme">โปรโมชั่น</a>
                     <a href="" class="w3-button  w3-theme">สั่งซื้อสินค้า</a>
                     <a href="" class="w3-button  w3-theme">แจ้งชำระเงิน</a>
-                    <a href="" class="w3-button  w3-theme">ติดต่อเรา</a>
+                    <a href="contact.php" class="w3-button  w3-theme">ติดต่อเรา</a>
                 </div>
         </div>
     </div>
