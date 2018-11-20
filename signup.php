@@ -47,32 +47,33 @@
     </div>
     
     <div class="w3-container w3-padding-64">
-        <div class="w3-content w3-border w3-card w3-white w3-container" style="width:60%;">
+        <div class="w3-content w3-border w3-card w3-white w3-container" style="width:30%;">
             <h1 class="w3-center w3-text-pink" style="margin-bottom:30px">สมัครสมาชิก</h1>
         <form class="w3-container w3-row-padding"action="">
-            <div>    
+            <div style="text-align:center;">    
+                <p>
                 <label class="w3-text-pink"><b>Username</b></label>
-                <input class="w3-input w3-border w3-sand" name="user" type="text" style="width:50%;">
-            </div>
-            <div>      
+                <input class="w3-input w3-border w3-sand" name="user" type="text"></p>
+            
+                <p>
                 <label class="w3-text-pink"><b>Password</b></label>
-                <input class="w3-input w3-border w3-sand" name="pass" type="password" style="width:50%;">
-            </div>
-            <div>      
+                <input class="w3-input w3-border w3-sand" name="pass" type="password"></p>
+            
+                <p>
                 <label class="w3-text-pink"><b>ชื่อ</b></label>
-                <input class="w3-input w3-border w3-sand" name="name" type="text">
-            </div>
-            <div>      
+                <input class="w3-input w3-border w3-sand" name="name" type="text"></p>
+           
+                <p>
                 <label class="w3-text-pink"><b>นามสกุล</b></label>
-                <input class="w3-input w3-border w3-sand" name="surname" type="text">
-            </div>
-            <div>      
+                <input class="w3-input w3-border w3-sand" name="surname" type="text"></p>
+            
+                <p>
                 <label class="w3-text-pink"><b>เบอร์โทรศัพท์</b></label>
-                <input class="w3-input w3-border w3-sand" name="tel" type="text" maxlength="10">
-            </div>
-            <div>      
+                <input class="w3-input w3-border w3-sand" name="tel" type="text" maxlength="10"></p>
+            
+                 <p>
                 <label class="w3-text-pink"><b>E-mail</b></label>
-                <input class="w3-input w3-border w3-sand" name="mail" type="email">
+                <input class="w3-input w3-border w3-sand" name="mail" type="email"></p>
             </div>        
 
             
