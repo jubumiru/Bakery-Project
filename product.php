@@ -47,9 +47,9 @@
         </div>
     </div>
 <!-- Dropdown -->
-<div class="w3-container w3-center" style="margin-top:20px;text-align:center;">
+<div class="w3-container w3-card" style="margin-top:20px;text-align:center; width:70%; margin-left:190px;">
   <div class="w3-bar">
-    <div class="w3-dropdown-click ">
+    <div class="w3-dropdown-click" style="margin-top:20px; margin-left:20px;">
       <button onclick="myFunction()" class="w3-btn  w3-round-xlarge w3-theme">หมวดหมู่สินค้า  <i class="fa fa-caret-down"></i></button>
         <div id="Demo" class="w3-dropdown-content w3-bar-block ">
           <a href="#" class="w3-bar-item w3-button">เค้กวันเกิด</a>
@@ -59,26 +59,14 @@
           <a href="#" class="w3-bar-item w3-button">คุกกี้</a>
         </div>
     </div>
-      <input type="text" class="w3-bar-item w3-input w3-white w3-mobile" placeholder="ค้นหาสินค้า...">
-        <button class="w3-bar-item w3-btn w3-theme w3-mobile "><i class="fa fa-search"></i></button>
+    <div style="margin-top:20px; margin-left:20px;">
+    <button class="w3-bar-item w3-btn w3-theme w3-mobile w3-right "><i class="fa fa-search"></i></button><input type="text" class="w3-bar-item w3-input w3-white w3-mobile w3-right" placeholder="ค้นหาสินค้า...">
+    </div>
   </div>
-</div>
 
-
-<script>
-function myFunction() {
-    var x = document.getElementById("Demo");
-    if (x.className.indexOf("w3-show") == -1) {  
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
 
   <!-- First Photo Grid-->
-  <!-- <div class="w3-center" style="width:72%; text-align:center;"> -->
-  <div class="w3-row-padding">
+  <div class="w3-row-padding" style="margin-top:20px; margin-left:20px;">
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="img/vanilacake.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
@@ -92,9 +80,9 @@ function myFunction() {
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="img/strawcake.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>เค้กแยมสตรอเบอร์รี่</b></p>
+        <p><b>เค้กสตรอเบอร์รี่</b></p>
       </div>
     </div>
   </div>
@@ -102,19 +90,19 @@ function myFunction() {
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/w3images/p1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="img/goldcake.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>เค้กฝอยทอง</b></p>
+        <p><b>เค้กชิ้นฝอยทอง</b></p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/w3images/p2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="img/browniee.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>เค้กแยมส้มเม็ดมะม่วง</b></p>
+        <p><b>บราวน์นี่</b></p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="/w3images/p3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="img/roll.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>เค้กโรลวนิลา</b></p>
       </div>
@@ -124,26 +112,36 @@ function myFunction() {
     <!-- Third Photo Grid-->
     <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/w3images/p1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="img/cookies.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>คุกกี้</b></p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/w3images/p2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="img/supreme.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>เอแคลร์</b></p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="/w3images/p3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="img/bread.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>ขนมปังกรอบ</b></p>
       </div>
     </div>
   </div>
   </div>
+  </div>
 
-
+<script>
+function myFunction() {
+    var x = document.getElementById("Demo");
+    if (x.className.indexOf("w3-show") == -1) {  
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
 </body>
 </html>
