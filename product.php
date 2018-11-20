@@ -47,28 +47,54 @@
         </div>
     </div>
 <!-- Dropdown -->
+<div class="w3-container w3-center" style="margin-top:20px;text-align:center;">
+  <div class="w3-bar">
+    <div class="w3-dropdown-click ">
+      <button onclick="myFunction()" class="w3-btn  w3-round-xlarge w3-theme">หมวดหมู่สินค้า  <i class="fa fa-caret-down"></i></button>
+        <div id="Demo" class="w3-dropdown-content w3-bar-block ">
+          <a href="#" class="w3-bar-item w3-button">เค้กวันเกิด</a>
+          <a href="#" class="w3-bar-item w3-button">เค้กชิ้น</a>
+          <a href="#" class="w3-bar-item w3-button">เอแคลร์</a>
+          <a href="#" class="w3-bar-item w3-button">ขนมปังกรอบ</a>
+          <a href="#" class="w3-bar-item w3-button">คุกกี้</a>
+        </div>
+    </div>
+      <input type="text" class="w3-bar-item w3-input w3-white w3-mobile" placeholder="ค้นหาสินค้า...">
+        <button class="w3-bar-item w3-btn w3-theme w3-mobile "><i class="fa fa-search"></i></button>
+  </div>
+</div>
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("Demo");
+    if (x.className.indexOf("w3-show") == -1) {  
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
 
   <!-- First Photo Grid-->
+  <!-- <div class="w3-center" style="width:72%; text-align:center;"> -->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/w3images/mountains.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="img/vanilacake.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Lorem Ipsum</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p><b>เค้กครีมวนิลา</b></p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/w3images/lights.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="img/chococake.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Lorem Ipsum</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p><b>เค้กช็อคโกแลต</b></p>
       </div>
     </div>
     <div class="w3-third w3-container">
       <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Lorem Ipsum</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p><b>เค้กแยมสตรอเบอร์รี่</b></p>
       </div>
     </div>
   </div>
@@ -78,25 +104,46 @@
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="/w3images/p1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Lorem Ipsum</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p><b>เค้กฝอยทอง</b></p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="/w3images/p2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Lorem Ipsum</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p><b>เค้กแยมส้มเม็ดมะม่วง</b></p>
       </div>
     </div>
     <div class="w3-third w3-container">
       <img src="/w3images/p3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Lorem Ipsum</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p><b>เค้กโรลวนิลา</b></p>
       </div>
     </div>
   </div>
+
+    <!-- Third Photo Grid-->
+    <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/w3images/p1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>คุกกี้</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/w3images/p2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>เอแคลร์</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="/w3images/p3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>ขนมปังกรอบ</b></p>
+      </div>
+    </div>
+  </div>
+  </div>
+
 
 </body>
 </html>
