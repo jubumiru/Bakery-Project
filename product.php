@@ -38,11 +38,11 @@
         <div class="w3-bar">
                 <div>
                     <a href="index.php" class="w3-button  w3-theme">หน้าแรก</a>
-                    <a href="" class="w3-button  w3-theme">สินค้าของเรา</a>
-                    <a href="" class="w3-button  w3-theme">โปรโมชั่น</a>
-                    <a href="" class="w3-button  w3-theme">สั่งซื้อสินค้า</a>
+                    <a href="product.php" class="w3-button  w3-theme">สินค้าของเรา</a>
+                    <a href="promotion.php" class="w3-button  w3-theme">โปรโมชั่น</a>
+                    <a href="login1.php" class="w3-button  w3-theme">สั่งซื้อสินค้า</a>
                     <a href="" class="w3-button  w3-theme">แจ้งชำระเงิน</a>
-                    <a href="" class="w3-button  w3-theme">ติดต่อเรา</a>
+                    <a href="contact.php" class="w3-button  w3-theme">ติดต่อเรา</a>
                 </div>
         </div>
     </div>
@@ -88,7 +88,7 @@
   </div>
   
   <!-- Second Photo Grid-->
-  <div class="w3-row-padding">
+  <div class="w3-row-padding" style="margin-top:20px; margin-left:20px;">
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="img/goldcake.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
@@ -110,7 +110,7 @@
   </div>
 
     <!-- Third Photo Grid-->
-    <div class="w3-row-padding">
+    <div class="w3-row-padding" style="margin-top:20px; margin-left:20px;">
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="img/cookies.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">

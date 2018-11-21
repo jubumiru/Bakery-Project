@@ -22,11 +22,10 @@
     }
     body{
         background-color:  #ffe6cc;
+         /* background-image: url("img/bg.jpg"); */
     }
     </style>
 </head>
-
-
 <body>
 <div class="w3-row" style="text-align:center;">
         <a href="index.php">
@@ -48,30 +47,24 @@
                 </div>
         </div>
     </div>
+    
+<!-- Grid -->
+  <div class="w3-row-padding w3-container w3-card w3-center" style="margin-top:20px; margin-left:300px; margin-right:300px ">
+    <div class="w3-col s5 w3-center" style="margin-top:20px; margin-bottom:20px;">
+        <img src="img/pro1.jpg" alt="motherday" style="width:260px;height:240px;"></a>    
+    </div>
+    <div class="w3-col s5 w3-center w3-card w3-theme-d3" style="margin-top:20px; margin-left:50px; margin-right:50px">
+      <p>โปรโมชันสุขสันต์วันแม่</p>
+    </div>
+    <div class="w3-col  s5 w3-center w3-theme-l2" style="margin-top:20px; margin-left:50px; margin-right:50px">
+      <p>พิเศษ !! <br> ช่วงวันแม่นี้ ลดราคาสำหรับเค้กปอนด์ 20% </p>
+    </div>
+    <div class="w3-col  s5 w3-center w3-theme-l2" style="margin-top:20px; margin-left:50px; margin-right:50px">
+      <p>ระยะเวลา <br> 10 สิงหาคม 2561 - 15 สิงหาคม 2561</p>
+    </div>
 
-
-<div class="w3-row w3-card w3-white" style="margin: auto;margin-top:20px;width:72%;">
-  <div class="w3-col s6" style="padding-left:50px;">
-    <h3 class="w3-center">คุณแต๋วเบเกอรี่</h3>
-    <h5 style="padding-top:40px;">  <i class="fa fa-phone"> เบอร์โทรศัพท์ติดต่อ : 081-9576294</i></h5>
-    <h5>  <i class="fa fa-home"> ที่อยู่ : </i></h5>
-    <h5>  <i class="fa fa-clock-o"> เวลาทำการ : </i></h5>
   </div>
-  
-  <div class="w3-col s6 w3-card" style="padding:10px;">
-  <h3 class="w3-center ">แผนที่</h3><br>
-    <div class="w3-center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1360.2725380461168!2d100.4764603334305!3d6.989239047983811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304d28319d642bd7%3A0xc7ba65e3b00b01de!2sSoi+Chum+Chon+Bon+Kai-Tha+Yang%2C+Tambon+Hat+Yai%2C+Amphoe+Hat+Yai%2C+Chang+Wat+Songkhla+90110!5e0!3m2!1sen!2sth!4v1542740296333" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
   </div>
-</div>
-
-
-
-<hr>
-<div class="footer">
-    <p>footer</p>
-</div>
-
-
 
 
 </body>
