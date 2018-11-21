@@ -42,7 +42,7 @@
                     <a href="" class="w3-button  w3-theme">โปรโมชั่น</a>
                     <a href="" class="w3-button  w3-theme">สั่งซื้อสินค้า</a>
                     <a href="" class="w3-button  w3-theme">แจ้งชำระเงิน</a>
-                    <a href="" class="w3-button  w3-theme">ติดต่อเรา</a>
+                    <a href="contact.php" class="w3-button  w3-theme">ติดต่อเรา</a>
                 </div>
         </div>
     </div>
@@ -66,68 +66,86 @@
 
 
   <!-- First Photo Grid-->
-  <div class="w3-row-padding" style="margin-top:20px; margin-left:20px;">
+  <div class="w3-row-padding" style="margin-top:20px;">
     <div class="w3-third w3-container w3-margin-bottom">
+      <a href="product_detail.php" style="text-decoration:none;">
       <img src="img/vanilacake.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>เค้กครีมวนิลา</b></p>
       </div>
+      </a>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
+      <a href="product_detail.php" style="text-decoration:none;">
       <img src="img/chococake.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>เค้กช็อคโกแลต</b></p>
       </div>
+      </a>
     </div>
     <div class="w3-third w3-container">
+    <a href="product_detail.php" style="text-decoration:none;">
       <img src="img/strawcake.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>เค้กสตรอเบอร์รี่</b></p>
       </div>
+      </a>
     </div>
   </div>
   
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
+    <a href="product_detail1.php" style="text-decoration:none;">
       <img src="img/goldcake.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>เค้กชิ้นฝอยทอง</b></p>
       </div>
+      </a>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
+    <a href="product_detail1.php" style="text-decoration:none;">
       <img src="img/browniee.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>บราวน์นี่</b></p>
       </div>
+      </a>
     </div>
     <div class="w3-third w3-container">
+    <a href="product_detail1.php" style="text-decoration:none;">
       <img src="img/roll.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>เค้กโรลวนิลา</b></p>
       </div>
+      </a>
     </div>
   </div>
 
     <!-- Third Photo Grid-->
     <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
+    <a href="product_detail1.php" style="text-decoration:none;">
       <img src="img/cookies.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>คุกกี้</b></p>
       </div>
+      </a>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
+    <a href="product_detail1.php" style="text-decoration:none;">
       <img src="img/supreme.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>เอแคลร์</b></p>
       </div>
+      </a>
     </div>
     <div class="w3-third w3-container">
+    <a href="product_detail1.php" style="text-decoration:none;">
       <img src="img/bread.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>ขนมปังกรอบ</b></p>
       </div>
+      </a>
     </div>
   </div>
   </div>
