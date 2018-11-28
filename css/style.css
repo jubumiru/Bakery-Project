@@ -1,47 +1,16 @@
-body
-{
-    margin: 0;
-    padding: 0;
+.w3-bar .w3-button{
+    margin-right:10px;
+    width:150px;
 }
-nav
-{
+
+body {
+    background-color: #ffe6cc;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
     width: 100%;
-}
-ul
-{
-    width: 80%;
-    margin: 0 auto;
-    padding: 0;
-}
-ul li
-{
-    list-style: none;
-    display: inline-block;
-    padding: 20px;
-}
-.toggle
-{
-    width: 100%;
-    padding: 10px 20px;
-    text-align: right;
-    box-sizing: border-box;
-    font-size: 30px;
-    display: none;
-}
-@media(max-width:768px)
-{
-    .toggle
-    {
-        display: block;
-    }
-    ul
-    {
-        width: 100%;
-        display: none;
-    }
-    ul li
-    {
-        display: block;
-        text-align: center;
-    }
+    color: white;
+    text-align: center;
 }
