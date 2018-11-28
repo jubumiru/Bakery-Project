@@ -48,7 +48,7 @@
             <img src="img/logo.png" alt="taewlogo" style="width:260px;height:240px;"></a>
     </div>
     <div class="w3-text-blue" style="text-align:right;padding-right:190px;">
-        <a href="admin_edit_pass.php">จัดการร้าน</a> ||
+        <a href="">จัดการร้าน</a> ||
         <a href="">ออกจากระบบ</a>
     </div>
     <div class="w3-container" style="margin-top:20px;text-align:center;">
@@ -58,7 +58,7 @@
                 <a href="product.php" class="w3-button  w3-theme">สินค้าของเรา</a>
                 <a href="promotion.php" class="w3-button  w3-theme">โปรโมชั่น</a>
                 <a href="login1.php" class="w3-button  w3-theme">สั่งซื้อสินค้า</a>
-                <a href="payment.php" class="w3-button  w3-theme">แจ้งชำระเงิน</a>
+                <a href="" class="w3-button  w3-theme">แจ้งชำระเงิน</a>
                 <a href="contact.php" class="w3-button  w3-theme">ติดต่อเรา</a>
             </div>
         </div>
@@ -80,22 +80,59 @@
             <div class="w3-col m8 w3-margin-top w3-margin-left">
                 <form>
                     <fieldset>
-                        <legend>ข้อมูลทั่วไป</legend>
-                        <div class="w3-row" style="text-align:center;">
-                            <div style="margin-left:150px; margin-right:150px;">
-                                <label >Password</label>
-                                <input class="w3-input w3-border" type="password">
-
-                                <label>ยืนยัน Password</label>
-                                <input class="w3-input w3-border" type="password">
-                                <button class="w3-btn w3-theme-l3 w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">ยืนยัน</button>
+                        <legend>เพิ่มโปรโมชัน</legend>
+                        <div class="w3-row w3-section">
+                            <div class="w3-col" style="width:150px">
+                                <p>รูปภาพ</p>
                             </div>
+                            <div class="w3-rest">
+                                <button class="w3-btn w3-border w3-white"><a href="">เลือกไฟล์</a></button>
 
+                            </div>
                         </div>
+
+                        <div class="w3-row w3-section">
+                            <div class="w3-col" style="width:150px">
+                                <p>ชื่อโปรโมชัน</p>
+                            </div>
+                            <div class="w3-rest">
+                                <input class="w3-input w3-border" name="ชื่อโปร" type="text" placeholder="ชื่อโปรโมชัน">
+                            </div>
+                        </div>
+
+                        <div class="w3-row w3-section">
+                            <div class="w3-col" style="width:150px">
+                                <p>รายละเอียดโปรโมชัน</p>
+                            </div>
+                            <div class="w3-rest">
+                                <input class="w3-input w3-border" name="รายละเอียดโปร" type="text" placeholder="รายละเอียดโปรโมชัน">
+                            </div>
+                        </div>
+
+                        <div class="w3-row w3-section">
+                            <div class="w3-col" style="width:150px">
+                                <p>ระยะเวลาโปรโมชัน</p>
+                            </div>
+                            <div class="w3-rest">
+                                <input class="w3-input w3-border" name="ระยะเวลาโปร" type="text" placeholder="ระยะเวลาโปรโมชัน">
+                            </div>
+                        </div>
+                        <div class="w3-center">
+                            <button class="w3-btn w3-theme-l3 w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">เพิ่มข้อมูล</button>
+                            <button class="w3-btn w3-red w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;"><a href="index.php">ยกเลิก</a></button>
+                        </div>
+
+
                     </fieldset>
                 </form>
             </div>
         </div>
+
+
+
+
+
+
 
 
 

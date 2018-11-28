@@ -71,8 +71,8 @@
                     <a href="admin_edit_pass.php" class="w3-bar-item w3-button w3-border">เปลี่ยนรหัสผ่าน</a>
                     <a href="admin_product.php" class="w3-bar-item w3-button w3-border">แก้ไขสินค้า</a>
                     <a href="admin_promotion.php" class="w3-bar-item w3-button w3-border">แก้ไขโปรโมชัน</a>
-                    <a href="#contact" class="w3-bar-item w3-button w3-border">รายการสั่งซื้อ</a>
-                    <a href="#contact" class="w3-bar-item w3-button w3-border">รายงานการขาย</a>
+                    <a href="#" class="w3-bar-item w3-button w3-border">รายการสั่งซื้อ</a>
+                    <a href="#" class="w3-bar-item w3-button w3-border">รายงานการขาย</a>
                 </div>
             </div>
 
@@ -80,22 +80,39 @@
             <div class="w3-col m8 w3-margin-top w3-margin-left">
                 <form>
                     <fieldset>
-                        <legend>ข้อมูลทั่วไป</legend>
-                        <div class="w3-row" style="text-align:center;">
-                            <div style="margin-left:150px; margin-right:150px;">
-                                <label >Password</label>
-                                <input class="w3-input w3-border" type="password">
+                        <legend>ข้อมูลสินค้า</legend>
+                        <a href="admin_product_add.php" class="w3-btn w3-theme w3-center w3-round-large" style="margin-top:20px;"> + เพิ่มสินค้า</a>
+    <table class="w3-table-all " style="margin-top:10px;">
+    <thead>
+      <tr class="w3-theme-l3">
+        <th>รูปสินค้า</th>
+        <th>ชื่อเมนู</th>
+        <th>หมวดหมู่</th>
+        <th>ราคา</th>
+        <th>จัดการ</th>
+      </tr>
+    </thead>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td><button class="w3-btn w3-small w3-theme"><a href="admin_product_edit.php">แก้ไข</a></button> <button class="w3-btn w3-small w3-red"><a href="">ลบ</a></button></td>
+    </tr>
+  </table>
+</div>
+</div>
 
-                                <label>ยืนยัน Password</label>
-                                <input class="w3-input w3-border" type="password">
-                                <button class="w3-btn w3-theme-l3 w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">ยืนยัน</button>
-                            </div>
-
-                        </div>
                     </fieldset>
                 </form>
             </div>
         </div>
+
+
+
+
+
+
 
 
 

@@ -48,7 +48,7 @@
         </div>
     </div>
     
-<!-- Grid -->
+<!-- ตาราง -->
   <div class="w3-row-padding w3-container w3-card w3-center" style="margin-top:20px; margin-left:300px; margin-right:300px ">
     <div class="w3-col s5 w3-center" style="margin-top:20px; margin-bottom:20px;">
         <img src="img/pro1.jpg" alt="motherday" style="width:260px;height:240px;"></a>    

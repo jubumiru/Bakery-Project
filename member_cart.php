@@ -62,43 +62,33 @@
                 <a href="contact.php" class="w3-button  w3-theme">ติดต่อเรา</a>
             </div>
         </div>
+
+        <div class="w3-center w3-xlarge"style="margin-top:20px; "><i class="fa fa-shopping-cart"></i> ตะกร้าของฉัน</div>
+        <div class="w3-row-padding w3-container  w3-center" style="margin-top:20px; margin-left:150px; margin-right:150px ">
+        <table class="w3-table-all">
+            <thead>
+                <tr class="w3-theme-l3">
+                    <th>รูปสินค้า</th>
+                    <th>รายละเอียดสินค้า</th>
+                    <th>จำนวน</th>
+                    <th>ราคา</th>
+                    <th>ลบ</th>
+                </tr>
+            </thead>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td><input type="number" min="1" max="50" name="amount"> ชิ้น</p>  </td>
+                <td></td>
+                <td><button class="w3-btn w3-small w3-red"><a href="member_payment.php"><i class="fa fa-trash"></i></a></button></td>
+            </tr>
+        </table>
     </div>
-    <!-- Left Panel -->
-    <div class="w3-container" style="margin-left:170px;">
-        <div class="w3-row">
-            <div class="w3-col m2 w3-margin-top w3-white">
-                <div class="w3-bar-block">
-                    <a href="admin_edit_pass.php" class="w3-bar-item w3-button w3-border">เปลี่ยนรหัสผ่าน</a>
-                    <a href="admin_product.php" class="w3-bar-item w3-button w3-border">แก้ไขสินค้า</a>
-                    <a href="admin_promotion.php" class="w3-bar-item w3-button w3-border">แก้ไขโปรโมชัน</a>
-                    <a href="#contact" class="w3-bar-item w3-button w3-border">รายการสั่งซื้อ</a>
-                    <a href="#contact" class="w3-bar-item w3-button w3-border">รายงานการขาย</a>
-                </div>
-            </div>
-
-            <!-- Right Panel -->
-            <div class="w3-col m8 w3-margin-top w3-margin-left">
-                <form>
-                    <fieldset>
-                        <legend>ข้อมูลทั่วไป</legend>
-                        <div class="w3-row" style="text-align:center;">
-                            <div style="margin-left:150px; margin-right:150px;">
-                                <label >Password</label>
-                                <input class="w3-input w3-border" type="password">
-
-                                <label>ยืนยัน Password</label>
-                                <input class="w3-input w3-border" type="password">
-                                <button class="w3-btn w3-theme-l3 w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">ยืนยัน</button>
-                            </div>
-
+                        <div class="w3-center">
+                            <button class="w3-btn w3-theme-l3 w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">ยืนยัน</button>
+                            <button class="w3-btn w3-red w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;"><a href="product.php">สั่งซื้อเพิ่ม</a></button>
                         </div>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
 
 
-
-</body>
-
+    </body>
 </html>
