@@ -13,7 +13,7 @@
 <body>
 <body>
     <!-- Navbar -->
-    <?php include "php/navbar.php" ?>
+    <?php include "php/navbarm.php" ?>
 
     <!-- Left Panel -->
     <div class="w3-container" style="margin-left:170px;">
@@ -41,7 +41,7 @@
                             </div>
                             <div style="text-align:center;">
                                 <a href="member_detail.php">ยกเลิก</a> ||
-                                <a href="" style="text-decoration:none;" class="w3-button w3-round-large w3-teal">เปลี่ยนข้อมูลส่วนตัว</a>
+                                <a href="" style="text-decoration:none;" class="w3-button w3-round-large w3-theme">เปลี่ยนข้อมูลส่วนตัว</a>
 
                             </div>
                     </fieldset>

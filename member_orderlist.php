@@ -16,7 +16,7 @@
 
     <body>
         <!-- Navbar -->
-        <?php include "php/navbar.php" ?>
+        <?php include "php/navbarm.php" ?>
 
         <!-- Content -->
         <div class="w3-content">
@@ -52,7 +52,7 @@
                 </form>
                 <div style="text-align:center;padding:10px;">
                     <a href="member_cart.php">ย้อนกลับ</a> ||
-                    <a href="" style="text-decoration:none;" class="w3-button w3-round-large w3-teal">ยืนยัน</a>
+                    <a href="" style="text-decoration:none;" class="w3-button w3-round-large w3-theme">ยืนยัน</a>
 
                 </div>
             </div>

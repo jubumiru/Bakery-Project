@@ -14,7 +14,7 @@
 
 <body>
     <!-- Navbar -->
-    <?php include "php/navbar.php" ?>
+    <?php include "php/navbarm.php" ?>
 
     <!-- Left Panel -->
     <div class="w3-container" style="margin-left:170px;">
@@ -46,7 +46,7 @@
                         </div>
                         <div style="text-align:center;">
                             <a href="member_address.php">ยกเลิก</a> ||
-                            <a href="" style="text-decoration:none;" class="w3-button w3-round-large w3-teal">ยืนยัน</a>
+                            <a href="" style="text-decoration:none;" class="w3-button w3-round-large w3-theme">ยืนยัน</a>
                         </div>
                 </form>
         </div>

@@ -13,7 +13,7 @@
 <body>
 <body>
     <!-- Navbar -->
-    <?php include "php/navbar.php" ?>
+    <?php include "php/navbarm.php" ?>
 
     <!-- Left Panel -->
     <div class="w3-container" style="margin-left:170px;">

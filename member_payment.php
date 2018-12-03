@@ -33,8 +33,8 @@
           <img src="img/logo.png" alt="taewlogo" style="width:260px;height:240px;"></a>
           </div>
           <div class="w3-text-blue" style="text-align:right;padding-right:190px;">
-          <a href="signup.php">สมัครสมาชิก</a> ||
-          <a href="Login.php">เข้าสู่ระบบ</a>
+          <!-- <a href="signup.php">สมัครสมาชิก</a> || -->
+          <a href="Login.php">ออกจากระบบ</a>
           </div>
     <div class="w3-container" style="margin-top:20px;text-align:center;">
         <div class="w3-bar">
@@ -53,8 +53,8 @@
 <p>หลักฐานการชำระเงิน</p><br>
 <button class="w3-btn w3-border"><a href="">เลือกไฟล์</a></button><br>
     <div class="w3-center">
-        <button class="w3-btn w3-theme-l3 w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">ยืนยันการชำระเงิน</button>
-        <button class="w3-btn w3-theme-l3 w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;"><a href="index.php">ยกเลิก</a></button>
+        <button class="w3-btn w3-theme w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">ยืนยันการชำระเงิน</button>
+        <button class="w3-btn w3-theme w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;"><a href="index.php">ยกเลิก</a></button>
     </div>
 </div>
 </body>
