@@ -44,7 +44,7 @@
 
 <body>
 <!-- Navbar  -->
-<?php include "php/navbar.php";?>
+<?php include "php/navbara.php";?>
     <!-- Left Panel -->
     <div class="w3-container" style="margin-left:170px;">
         <div class="w3-row">
