@@ -43,26 +43,8 @@
 </head>
 
 <body>
-    <div class="w3-row" style="text-align:center;">
-        <a href="index.php">
-            <img src="img/logo.png" alt="taewlogo" style="width:260px;height:240px;"></a>
-    </div>
-    <div class="w3-text-blue" style="text-align:right;padding-right:190px;">
-        <a href="admin_edit_pass.php">จัดการร้าน</a> ||
-        <a href="">ออกจากระบบ</a>
-    </div>
-    <div class="w3-container" style="margin-top:20px;text-align:center;">
-        <div class="w3-bar">
-            <div>
-                <a href="index.php" class="w3-button  w3-theme">หน้าแรก</a>
-                <a href="product.php" class="w3-button  w3-theme">สินค้าของเรา</a>
-                <a href="promotion.php" class="w3-button  w3-theme">โปรโมชั่น</a>
-                <a href="login1.php" class="w3-button  w3-theme">สั่งซื้อสินค้า</a>
-                <a href="payment.php" class="w3-button  w3-theme">แจ้งชำระเงิน</a>
-                <a href="contact.php" class="w3-button  w3-theme">ติดต่อเรา</a>
-            </div>
-        </div>
-    </div>
+<!-- Navbar  -->
+<?php include "php/navbar.php";?>
     <!-- Left Panel -->
     <div class="w3-container" style="margin-left:170px;">
         <div class="w3-row">
@@ -71,7 +53,7 @@
                     <a href="admin_edit_pass.php" class="w3-bar-item w3-button w3-border">เปลี่ยนรหัสผ่าน</a>
                     <a href="admin_product.php" class="w3-bar-item w3-button w3-border">แก้ไขสินค้า</a>
                     <a href="admin_promotion.php" class="w3-bar-item w3-button w3-border">แก้ไขโปรโมชัน</a>
-                    <a href="#" class="w3-bar-item w3-button w3-border">รายการสั่งซื้อ</a>
+                    <a href="admin_order.php" class="w3-bar-item w3-button w3-border">รายการสั่งซื้อ</a>
                     <a href="#" class="w3-bar-item w3-button w3-border">รายงานการขาย</a>
                 </div>
             </div>

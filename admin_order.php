@@ -23,7 +23,7 @@
                 <a href="admin_edit_pass.php" class="w3-bar-item w3-button w3-border">เปลี่ยนรหัสผ่าน</a>
                     <a href="admin_product.php" class="w3-bar-item w3-button w3-border">แก้ไขสินค้า</a>
                     <a href="admin_promotion.php" class="w3-bar-item w3-button w3-border">แก้ไขโปรโมชัน</a>
-                    <a href="#" class="w3-bar-item w3-button w3-border">รายการสั่งซื้อ</a>
+                    <a href="admin_order.php" class="w3-bar-item w3-button w3-border">รายการสั่งซื้อ</a>
                     <a href="#" class="w3-bar-item w3-button w3-border">รายงานการขาย</a>
                 </div>
             </div>
@@ -32,18 +32,23 @@
      <div class="w3-col m8 w3-margin-top w3-margin-left">
                 <form>
                     <fieldset class="">
-                        <legend>เปลี่ยนรหัสผ่าน</legend>
-                            <div class="w3-row">
-                                <div class="w3-col m8">
-                                    <p class="w3-right-align">Password : <input type="password"></input></p>
-                                    <p class="w3-right-align">ยืนยัน Password : <input type="password"></input></p>
-                                 </div>
-                            </div>
-                            <div style="text-align:center;">
-                                <a href="member_detail.php">ยกเลิก</a> ||
-                                <a href="" style="text-decoration:none;" class="w3-button w3-round-large w3-teal">เปลี่ยนรหัสผ่าน</a>
-
-                            </div>
+                        <legend>รายการสั่งซื้อ</legend>
+                            <table class="w3-table-all">
+                                <tr>
+                                    <th>หมายเลขสมาชิก</th>
+                                    <th>หมายเลขออเดอร์</th>
+                                    <th>วันที่</th>
+                                    <th>สถานะ</th>
+                                    <th>รายละเอียด</th>
+                                </tr>
+                                <tr>
+                                    <td>012</td>
+                                    <td>345</td>
+                                    <td>10/10/2561</td>
+                                    <td>ชำระเงินแล้ว</td>
+                                    <td><a href="admin_order_detail.php">ดูรายละเอียด</a></td>
+                                </tr>
+                            </table>
                     </fieldset>
                 </form>
         </div>

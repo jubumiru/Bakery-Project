@@ -85,7 +85,7 @@
         </table>
     </div>
                         <div class="w3-center">
-                            <button class="w3-btn w3-theme-l3 w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">ยืนยัน</button>
+                            <button class="w3-btn w3-theme-l3 w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;"><a href="member_orderlist.php" style="text-decoration:none;">ยืนยัน</a></button>
                             <button class="w3-btn w3-red w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;"><a href="product.php">สั่งซื้อเพิ่ม</a></button>
                         </div>
 
