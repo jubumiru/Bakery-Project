@@ -34,7 +34,7 @@
                         <legend>ที่อยู่จัดส่ง</legend>
                             <fieldset>
                                 <legend>ที่อยู่ 1</legend>
-                                <button class="w3-right"><i class="fa fa-trash" style="font-size:36px"></i></button>
+                                <button class="w3-right w3-red"><i class="fa fa-trash" style="font-size:36px"></i></button>
                             </fieldset>
                             <a href="member_add_address.php" class="w3-button w3-round-large w3-theme w3-margin w3-right">เพิ่มที่อยู่ใหม่</a>
                     </fieldset>
