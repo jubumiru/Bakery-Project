@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
-    <title>Document</title>
+    <title>Admin</title>
 </head>
 
 <body>
 
     <body>
         <!-- Navbar -->
-        <?php include "php/navbar.php" ?>
+        <?php include "php/navbara.php" ?>
 
         <!-- Left Panel -->
         <div class="w3-container" style="margin-left:170px;">
