@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.js"></script>
     <title>Admin</title>
 </head>
 
@@ -60,25 +61,23 @@
                             var myChart = new Chart(ctx, {
                                 type: 'pie',
                                 data: {
-                                    labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+                                    labels: ["เค้กวันเกิด", "เค้กชิ้น", "เอแคลร์", "ขนมปังกรอบ", "คุกกี้"],
                                     datasets: [{
                                         label: '# of Votes',
-                                        data: [12, 19, 3, 5, 2, 3],
+                                        data: [12, 19, 3, 5, 2],
                                         backgroundColor: [
                                             'rgba(255, 99, 132, 0.2)',
                                             'rgba(54, 162, 235, 0.2)',
                                             'rgba(255, 206, 86, 0.2)',
                                             'rgba(75, 192, 192, 0.2)',
-                                            'rgba(153, 102, 255, 0.2)',
-                                            'rgba(255, 159, 64, 0.2)'
+                                            'rgba(153, 102, 255, 0.2)'
                                         ],
                                         borderColor: [
                                             'rgba(255,99,132,1)',
                                             'rgba(54, 162, 235, 1)',
                                             'rgba(255, 206, 86, 1)',
                                             'rgba(75, 192, 192, 1)',
-                                            'rgba(153, 102, 255, 1)',
-                                            'rgba(255, 159, 64, 1)'
+                                            'rgba(153, 102, 255, 1)'
                                         ],
                                         borderWidth: 1
                                     }]
