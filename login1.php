@@ -10,12 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
     <title>Mrs. Taew Bakery</title>
-    <style>
-        form { 
-        margin: auto; 
-        width:300px;
-    }
-    </style>
 </head>
 
 <body>
