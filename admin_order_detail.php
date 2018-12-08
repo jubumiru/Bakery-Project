@@ -27,7 +27,7 @@
                         <a href="admin_product.php" class="w3-bar-item w3-button w3-border">แก้ไขสินค้า</a>
                         <a href="admin_promotion.php" class="w3-bar-item w3-button w3-border">แก้ไขโปรโมชัน</a>
                         <a href="admin_order.php" class="w3-bar-item w3-button w3-border">รายการสั่งซื้อ</a>
-                        <a href="#" class="w3-bar-item w3-button w3-border">รายงานการขาย</a>
+                        <a href="admin_report.php" class="w3-bar-item w3-button w3-border">รายงานการขาย</a>
                     </div>
                 </div>
 
