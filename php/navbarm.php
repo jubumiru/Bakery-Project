@@ -3,6 +3,7 @@
         <img src="img/logo.png" alt="taewlogo" style="width:260px;height:240px;"></a>
 </div>
 <div class="w3-text-blue" style="text-align:right;padding-right:190px;">
+    <a href="member_detail.php">ข้อมูลผู้ใช้</a> ||
     <a href="Login.php">ออกจากระบบ</a>
 </div>
 <div class="w3-container" style="margin-top:20px;text-align:center;">

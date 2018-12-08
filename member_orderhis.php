@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
-    <title>Document</title>
+    <title>Member</title>
 </head>
 <body>
 <body>
@@ -34,7 +34,7 @@
                             <div class="w3-row">
                                 <div class="w3-">
                                     <table class="w3-table-all">
-                                        <tr class="w3-padding">
+                                        <tr class="w3-padding w3-theme-l3">
                                             <th class="w3-left-align">วันที่สั่งซื้อ</th>
                                             <th class="w3-center">รายละเอียดสินค้า</th>
                                             <th class="w3-right-align">สถานะออเดอร์</th>
