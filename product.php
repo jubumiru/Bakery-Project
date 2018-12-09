@@ -16,7 +16,7 @@
   <!-- Navbar  -->
   <?php include "php/navbar.php";?>
   <!-- Dropdown -->
-  <div class="w3-container w3-card" style="margin-top:20px;text-align:center; width:70%; margin-left:190px;">
+  <div class="w3-content w3-card  w3-row" >
     <div class="w3-bar">
       <div class="w3-dropdown-click" style="margin-top:20px; margin-left:20px;">
         <button onclick="myFunction()" class="w3-btn  w3-round-xlarge w3-theme">หมวดหมู่สินค้า <i class="fa fa-caret-down"></i></button>
