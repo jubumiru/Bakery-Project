@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- Navbar  -->
-    <?php include "php/navbar.php";?>
+    <?php include "php/navbarm.php";?>
     <div class="w3-row-padding w3-container w3-card w3-center" style="margin-top:20px; margin-left:300px; margin-right:300px ">
         <table class="w3-table-all">
             <thead>
