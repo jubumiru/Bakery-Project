@@ -29,7 +29,7 @@
                 <td>123456789</td>
                 <td>10/10/2562</td>
                 <td>50 บาท</td>
-                <td>ยังไม่ได้ชำระเงิน</td>
+                <td>ยังไม่ชำระ</td>
                 <td><button class="w3-btn w3-small w3-red"><a href="member_payment.php">ชำระเงิน</a></button></td>
             </tr>
         </table>

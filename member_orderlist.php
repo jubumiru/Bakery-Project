@@ -52,7 +52,7 @@
                 </form>
                 <div style="text-align:center;padding:10px;">
                     <a href="member_cart.php">ย้อนกลับ</a> ||
-                    <a href="" style="text-decoration:none;" class="w3-button w3-round-large w3-theme">ยืนยัน</a>
+                    <a href="payment.php" style="text-decoration:none;" class="w3-button w3-round-large w3-theme">ยืนยัน</a>
 
                 </div>
             </div>
