@@ -51,7 +51,7 @@
 
 
                     <div id="addtocart" class="w3-modal">
-                        <div class="w3-modal-content w3-animate-zoom w3-padding-large w3-round" style="width:40%;">
+                        <div class="w3-modal-content w3-animate-zoom w3-padding-small w3-round" style="width:40%;">
                             <div class="w3-container w3-white w3-center">
                                 <a href="member_cart.php"><i onclick="document.getElementById('addtocart').style.display='none'" class="fa fa-remove w3-button w3-xlarge w3-right w3-transparent"></i></a>
                                 <h2>เพิ่มสินค้าลงในตะกร้าเรียบร้อย</h2>
