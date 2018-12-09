@@ -15,7 +15,7 @@
             <a href="index.php" class="w3-button w3-hide-small w3-theme">หน้าแรก</a>
             <a href="product.php" class="w3-button w3-hide-small w3-theme">สินค้าของเรา</a>
             <a href="promotion.php" class="w3-button w3-hide-small w3-theme">โปรโมชั่น</a>
-            <a href="member_cart.php" class="w3-button w3-hide-small w3-theme">สั่งซื้อสินค้า</a>
+            <a href="member_cart.php" class="w3-button w3-hide-small w3-theme">ตะกร้าสินค้า</a>
             <a href="payment.php" class="w3-button w3-hide-small w3-theme">แจ้งชำระเงิน</a>
             <a href="contact.php" class="w3-button w3-hide-small w3-theme">ติดต่อเรา</a>
             <a href="javascript:void(0)" class="w3-bar w3-button w3-left w3-hide-large w3-hide-medium w3-theme" onclick="w3_open()">
@@ -30,7 +30,7 @@
   <a href="index.php" onclick="w3_close()" class="w3-bar-item w3-button">หน้าแรก</a>
   <a href="product.php" onclick="w3_close()" class="w3-bar-item w3-button">สินค้าของเรา</a>
   <a href="promotion.php" onclick="w3_close()" class="w3-bar-item w3-button">โปรโมชัน</a>
-  <a href="member_cart.php" onclick="w3_close()" class="w3-bar-item w3-button">สั่งซื้อสินค้า</a>
+  <a href="member_cart.php" onclick="w3_close()" class="w3-bar-item w3-button">ตะกร้าสินค้า</a>
   <a href="payment.php" onclick="w3_close()" class="w3-bar-item w3-button">แจ้งชำระเงิน</a>
   <a href="contact.php" onclick="w3_close()" class="w3-bar-item w3-button">ติดต่อเรา</a>
 </nav>

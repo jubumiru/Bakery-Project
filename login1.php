@@ -25,15 +25,15 @@
                 <p>
                     <div style="text-align:center;">
                         <label class="w3-text-pink"><b>Username</b></label>
-                        <input class="w3-input w3-border w3-sand" name="first" type="text">
+                        <center><input class="w3-input w3-border w3-sand" name="first" type="text" style="width:40%;"></center>
                 </p>
                 <p>
                     <label class="w3-text-pink"><b>Password</b></label>
-                    <input class="w3-input w3-border w3-sand" name="last" type="password"></p>
+                    <center><input class="w3-input w3-border w3-sand" name="last" type="password" style="width:40%;"></p></center>
         </div>
         <p>
             <div class="w3-center">
-                <a href="signup.php">สมัครสมาชิก</a> <button class="w3-btn w3-pink ">เข้าสู่ระบบ</button>
+                <a href="signup.php">สมัครสมาชิก</a> || <button class="w3-btn w3-pink ">เข้าสู่ระบบ</button>
         </p>
     </div>
     </form>

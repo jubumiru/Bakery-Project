@@ -33,14 +33,14 @@
             <div class="w3-col m8 w3-margin-top w3-margin-left">
                 <form>
                     <fieldset>
-                        <legend>ข้อมูลทั่วไป</legend>
+                        <legend>แก้ไขรหัสผ่าน</legend>
                         <div class="w3-row" style="text-align:center;">
                             <div style="margin-left:150px; margin-right:150px;">
                                 <label >Password</label>
-                                <input class="w3-input w3-border" type="password">
+                                <center><input class="w3-input w3-border" type="password" style="width:50%;"></center>
 
                                 <label>ยืนยัน Password</label>
-                                <input class="w3-input w3-border" type="password">
+                                <center><input class="w3-input w3-border" type="password" style="width:50%;"></center>
                                 <button class="w3-btn w3-theme-l3 w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">ยืนยัน</button>
                             </div>
 
