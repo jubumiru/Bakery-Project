@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
-    <title>Document</title>
+    <title>รายละเอียดของออเดอร์</title>
 </head>
 
 <body>
@@ -41,25 +41,32 @@
                                     <p>ชื่อ : </p>
                                     <p>เบอร์โทรศัพท์ : </p>
                                     <p>ที่อยู่ในการจัดส่ง : </p>
-                                    <p>สินค้าที่สั่ง : </p>
-                                    <p>ข้อความและลายบนหน้าเค้ก : </p>
                                     <p>วันที่ต้องการรับ : </p>
-                                    <p>สถานะออเดอร์ :
-                                        <select style="float:center;">
-                                            <option value="volvo">ชำระเงินแล้ว</option>
-                                            <option value="saab">ปฏิเสธออเดอร์</option>
-                                            <option value="fiat">กำลังจัดส่ง</option>
-                                        </select></p>
                                 </div>
                                 <div class="w3-col m6 w3-padding">
                                     <p>นามสกุล : </p>
                                 </div>
+                                <table class="w3-table-all" style="margin-top:20px;">
+                                    <tr class="w3-padding">
+                                        <th>ชื่อสินค้า</th>
+                                        <th class=>ข้อความและลายบนหน้าเค้ก</th>
+                                        <th class=>จำนวน</th>
+                                        <th class=>ราคา</th>
+                                    </tr>
+                                    <tr>
+                                        <td class=>กก</td>
+                                        <td class=>กกก</td>
+                                        <td class=>กกก</td>
+                                        <td>กกกก</td>
+                                    </tr>
+                                </table>
+
 
                             </div>
-                            <div style="text-align:right;">
-                            <a href="admin_order.php">ย้อนกลับ</a> || <a href="" class="w3-button w3-red w3-center w3-round-large">ยืนยัน</a>
-                        </div>
-                    </div>
+                            <div style="text-align:right;padding:2%;">
+                                <a href="admin_order.php">ย้อนกลับ</a> || <a href="" class="w3-button w3-red w3-center w3-round-large">ยืนยัน</a>
+                            </div>
+                </div>
                 </fieldset>
                 </form>
             </div>

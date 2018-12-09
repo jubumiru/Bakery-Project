@@ -42,7 +42,17 @@
 
                 <div class="w3-center w3-row w3-padding">
                     <h5 class="w3-text-red">* กรุณาสั่งจองล่วงหน้าก่อนวันที่ต้องการรับ อย่างน้อย 2 วัน *</h5>
-                    <button type="submit">สั่งซื้อ</button>
+                    <button type="submit" onclick="document.getElementById('addtocart').style.display='block'">สั่งซื้อ</button>
+                </div>
+
+                <div id="addtocart" class="w3-modal">
+                    <div class="w3-modal-content w3-animate-zoom w3-padding-large w3-round" style="width:40%;">
+                        <div class="w3-container w3-white w3-center">
+                            <a href="member_cart.php"><i onclick="document.getElementById('addtocart').style.display='none'"
+                                    class="fa fa-remove w3-button w3-xlarge w3-right w3-transparent"></i></a>
+                            <h2>เพิ่มสินค้าลงในตะกร้าเรียบร้อย</h2>
+                        </div>
+                    </div>
                 </div>
 
 

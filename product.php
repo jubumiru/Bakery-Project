@@ -9,14 +9,14 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
-  <title>Mrs. Taew Bakery</title>
+  <title>สินค้าของเรา</title>
 </head>
 
 <body>
   <!-- Navbar  -->
   <?php include "php/navbar.php";?>
   <!-- Dropdown -->
-  <div class="w3-container w3-card" style="margin-top:20px;text-align:center; width:70%; margin-left:190px;">
+  <div class="w3-content w3-card  w3-row" >
     <div class="w3-bar">
       <div class="w3-dropdown-click" style="margin-top:20px; margin-left:20px;">
         <button onclick="myFunction()" class="w3-btn  w3-round-xlarge w3-theme">หมวดหมู่สินค้า <i class="fa fa-caret-down"></i></button>

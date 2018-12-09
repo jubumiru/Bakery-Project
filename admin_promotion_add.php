@@ -40,7 +40,7 @@
                                     <p>รูปภาพ</p>
                                 </div>
                                 <div class="w3-rest">
-                                    <button class="w3-btn w3-border w3-white"><a href="">เลือกไฟล์</a></button>
+                                <p class="w3-center-align"><input class=" w3-border  " style="width:300px;" name="imageUpload" type="file" required>
 
                                 </div>
                             </div>
