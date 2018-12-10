@@ -60,8 +60,6 @@
                                         <td>กกกก</td>
                                     </tr>
                                 </table>
-
-
                             </div>
                             <div style="text-align:right;padding:2%;">
                                 <a href="admin_order.php">ย้อนกลับ</a> || <a href="" class="w3-button w3-red w3-center w3-round-large">ยืนยัน</a>
