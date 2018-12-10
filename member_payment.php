@@ -24,9 +24,8 @@
             <p>หลักฐานการชำระเงิน</p><br>
             <p class="w3-center-align"><input class=" w3-border  " style="width:300px;" name="imageUpload" type="file" required>
             <div class="w3-center">
-                <button class="w3-btn w3-theme w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">ยืนยันการชำระเงิน</button>
-                <button class="w3-btn w3-theme w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;"><a
-                        href="index.php">ยกเลิก</a></button>
+                <a class="w3-btn w3-theme w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">ยืนยันการชำระเงิน</a> ||
+                <a href="index.php" class="w3-center w3-round-large">ยกเลิก</a>
             </div>
         </div>
     </body>

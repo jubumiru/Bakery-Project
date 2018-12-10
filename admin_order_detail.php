@@ -16,7 +16,7 @@
 
     <body>
         <!-- Navbar -->
-        <?php include "php/navbar.php" ?>
+        <?php include "php/navbara.php" ?>
 
         <!-- Left Panel -->
         <div class="w3-container" style="margin-left:170px;">
@@ -42,6 +42,12 @@
                                     <p>เบอร์โทรศัพท์ : </p>
                                     <p>ที่อยู่ในการจัดส่ง : </p>
                                     <p>วันที่ต้องการรับ : </p>
+                                    <p>หลักฐานการชำระเงิน : <a href="">ดูหลักฐานการชำระ</a></p>
+                                    <p>สถานะออเดอร์ : <select name="ostatus" id="">
+                                            <option value="check">รอการตรวจสอบ</option>
+                                            <option value="agree">ได้รับชำระแล้ว</option>
+                                            <option value="ignore">ปฏิเสธออเดอร์</option>
+                                        </select></p>
                                 </div>
                                 <div class="w3-col m6 w3-padding">
                                     <p>นามสกุล : </p>
@@ -49,15 +55,17 @@
                                 <table class="w3-table-all" style="margin-top:20px;">
                                     <tr class="w3-padding">
                                         <th>ชื่อสินค้า</th>
-                                        <th class=>ข้อความและลายบนหน้าเค้ก</th>
-                                        <th class=>จำนวน</th>
-                                        <th class=>ราคา</th>
+                                        <th>ข้อความและลายบนหน้าเค้ก</th>
+                                        <th>รายละเอียดสินค้า</th>
+                                        <th>จำนวน</th>
+                                        <th>ราคา</th>
                                     </tr>
                                     <tr>
-                                        <td class=>กก</td>
-                                        <td class=>กกก</td>
-                                        <td class=>กกก</td>
-                                        <td>กกกก</td>
+                                        <td>เค้กวนิลา</td>
+                                        <td>สุขสันต์วันเกิด เค้กรูปมิกกี้เมาส์</td>
+                                        <td>2 ปอนด์</td>
+                                        <td>1 ชิ้น</td>
+                                        <td>200</td>
                                     </tr>
                                 </table>
                             </div>
@@ -69,7 +77,7 @@
                 </form>
             </div>
         </div>
-
+        
     </body>
 
 </html>

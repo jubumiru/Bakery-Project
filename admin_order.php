@@ -48,7 +48,7 @@
                                     <td>012</td>
                                     <td>345</td>
                                     <td>10/10/2561</td>
-                                    <td>ชำระเงินแล้ว</td>
+                                    <td>รอการตรวจสอบ</td>
                                     <td><a href="admin_order_detail.php">ดูรายละเอียด</a></td>
                                 </tr>
                             </table>
