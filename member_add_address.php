@@ -1,3 +1,35 @@
+<!-- เก็บข้อมูลเข้าฐานข้อมูล -->
+<?php
+include 'connect.php';
+
+  if(isset($_POST["submit"])){
+
+    $Number = $_POST["Username"];
+    $Password = $_POST["Password"];
+    $Name = $_POST["Member_Name"];
+    $Lastname = $_POST["Member_Lastname"];
+    $Tel = $_POST["Member_Phone"];
+    $Email = $_POST["Member_Email"];
+
+    $sql = "INSERT INTO `member` (`Username`, `Password`, `Member_Name`, `Member_Lastname`, `Member_Phone`, `Member_Email`) 
+		VALUES ('$Username','$Password','$Name','$Lastname','$Tel','$Email')";
+
+  $query = mysqli_query($conn,$sql);
+  
+
+	if($query) {
+		echo "Record add successfully";
+	}
+
+	mysqli_close($conn);
+
+
+  
+
+  }
+  ?>
+
+<!-- หน้าเพจ html -->
 <!DOCTYPE html>
 <html lang="en">
 
