@@ -1,3 +1,36 @@
+<!-- เก็บข้อมูลเข้าฐานข้อมูล -->
+<?php
+include 'connect.php';
+
+  if(isset($_POST["submit"])){
+
+    $Address_Number = $_POST["Address_Number"];
+    $Address_Street = $_POST["Address_Street"];
+    $Address_Lane = $_POST["Address_Lane"];
+    $Address_Tambon = $_POST["Address_Tambon"];
+    $Address_District = $_POST["Address_District"];
+    $Address_Province = $_POST["Address_Province"];
+    $Postcode = $_POST["Postcode"];
+
+    $sql = "INSERT INTO `address` (`Address_Number`, `Address_Street`, `Address_Lane`, `Address_Tambon`, `Address_District`, `Address_Province`, `Postcode`) 
+		VALUES ('$Address_Number','$Address_Street','$Address_Lane','$Address_Tambon','$Address_District','$Address_Province','$Postcode')";
+
+  $query = mysqli_query($conn,$sql);
+  
+
+	if($query) {
+		echo "Record add successfully";
+	}
+
+	mysqli_close($conn);
+
+
+  
+
+  }
+  ?>
+
+<!-- หน้าเพจ html -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,19 +67,19 @@
                         <legend>เพิ่มที่อยู่ใหม่</legend>
                         <div class="w3-row">
                             <div class="w3-col m5">
-                                <p class="w3-right-align">บ้านเลขที่ : <input type="text"></input></p>
-                                <p class="w3-right-align">ตำบล : <input type="text"></input></p>
-                                <p class="w3-right-align">จังหวัด : <input type="text"></input></p>
+                                <p class="w3-right-align">บ้านเลขที่ : <input type="text" name="Address_Number"></p>
+                                <p class="w3-right-align">ตำบล : <input type="text" name="Address_Tambon"></p>
+                                <p class="w3-right-align">จังหวัด : <input type="text" name="Address_Province"></p>
                             </div>
                             <div class="w3-col m5">
-                                <p class="w3-right-align">ถนน : <input type="text"></input></p>
-                                <p class="w3-right-align">อำเภอ : <input type="text"></input></p>
-                                <p class="w3-right-align">รหัสไปรษณีย์ : <input type="text"></input></p>
+                                <p class="w3-right-align">ถนน : <input type="text" name="Address_Street"></p>
+                                <p class="w3-right-align">อำเภอ : <input type="text" name="Address_District"></p>
+                                <p class="w3-right-align">รหัสไปรษณีย์ : <input type="text" name="Address_Province"></p>
                             </div>
                         </div>
                         <div style="text-align:center;">
                             <a href="member_address.php">ยกเลิก</a> ||
-                            <a href="" style="text-decoration:none;" class="w3-button w3-round-large w3-theme">ยืนยัน</a>
+                            <a href="" style="text-decoration:none;" class="w3-button w3-round-large w3-theme" type="submit" name="submit">ยืนยัน</a>
                         </div>
                 </form>
         </div>
