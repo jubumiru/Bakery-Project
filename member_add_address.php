@@ -1,34 +1,28 @@
 <!-- เก็บข้อมูลเข้าฐานข้อมูล -->
-<?php
-include 'connect.php';
+<?php include "selectnav.php";
+    $id = isset($_GET['id']) ? $_GET['id'] : '';
+    if(isset($_POST['submit'])){
+    $adnumber = $_POST['adnumber'];
+    $adtambon = $_POST['adtambon'];
+    $adprovince = $_POST['adprovince'];
+    $adstreet = $_POST['adstreet'];
+    $addistrict = $_POST['addistrict'];
+    $adpostcode = $_POST['adpostcode'];
+    
+    $query = "INSERT INTO `address`(Address_Number, Address_Street,Address_Tambon, Address_District, Address_Province, Postcode, member_id) 
+              VALUES ('$adnumber', '$adstreet', '$adtambon', '$addistrict', '$adprovince', '$adpostcode', '$id')";
+    $result = mysqli_query($conn, $query);
+    if($result){
+        echo "<script>";
+        echo "alert(\"เพิ่มที่อยู่เรียบร้อยแล้ว\");";
+        echo "window.location = 'member_address.php';";
+        echo "</script>";
+     }else{
+         
+     }
+    }
 
-  if(isset($_POST["submit"])){
-
-    $Address_Number = $_POST["Address_Number"];
-    $Address_Street = $_POST["Address_Street"];
-    $Address_Lane = $_POST["Address_Lane"];
-    $Address_Tambon = $_POST["Address_Tambon"];
-    $Address_District = $_POST["Address_District"];
-    $Address_Province = $_POST["Address_Province"];
-    $Postcode = $_POST["Postcode"];
-
-    $sql = "INSERT INTO `address` (`Address_Number`, `Address_Street`, `Address_Lane`, `Address_Tambon`, `Address_District`, `Address_Province`, `Postcode`) 
-		VALUES ('$Address_Number','$Address_Street','$Address_Lane','$Address_Tambon','$Address_District','$Address_Province','$Postcode')";
-
-  $query = mysqli_query($conn,$sql);
-  
-
-	if($query) {
-		echo "Record add successfully";
-	}
-
-	mysqli_close($conn);
-
-
-  
-
-  }
-  ?>
+?>
 
 <!-- หน้าเพจ html -->
 <!DOCTYPE html>
@@ -38,16 +32,30 @@ include 'connect.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
     <link rel="stylesheet" href="css/w3.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
     <title>Member Detail</title>
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Itim", sans-serif
+        }
+
+        body {
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Navbar -->
-    <?php include "php/navbarm.php" ?>
 
     <!-- Left Panel -->
     <div class="w3-container" style="margin-left:170px;">
@@ -62,24 +70,24 @@ include 'connect.php';
     
     <!-- Right Panel -->
         <div class="w3-col m8 w3-margin-top w3-margin-left">
-                <form>
+                <form method="post">
                     <fieldset >
                         <legend>เพิ่มที่อยู่ใหม่</legend>
                         <div class="w3-row">
                             <div class="w3-col m5">
-                                <p class="w3-right-align">บ้านเลขที่ : <input type="text" name="Address_Number"></p>
-                                <p class="w3-right-align">ตำบล : <input type="text" name="Address_Tambon"></p>
-                                <p class="w3-right-align">จังหวัด : <input type="text" name="Address_Province"></p>
+                                <p class="w3-right-align">บ้านเลขที่ : <input type="text" name="adnumber" required></p>
+                                <p class="w3-right-align">ตำบล : <input type="text" name="adtambon" value="ต." required></p>
+                                <p class="w3-right-align">จังหวัด : <input type="text" name="adprovince" value="จ." required></p>
                             </div>
                             <div class="w3-col m5">
-                                <p class="w3-right-align">ถนน : <input type="text" name="Address_Street"></p>
-                                <p class="w3-right-align">อำเภอ : <input type="text" name="Address_District"></p>
-                                <p class="w3-right-align">รหัสไปรษณีย์ : <input type="text" name="Address_Province"></p>
+                                <p class="w3-right-align">ถนน : <input type="text" name="adstreet" value="ถ." required></p>
+                                <p class="w3-right-align">อำเภอ : <input type="text" name="addistrict" value="อ." required></p>
+                                <p class="w3-right-align">รหัสไปรษณีย์ : <input type="text" name="adpostcode" required></p>
                             </div>
                         </div>
                         <div style="text-align:center;">
                             <a href="member_address.php">ยกเลิก</a> ||
-                            <a href="" style="text-decoration:none;" class="w3-button w3-round-large w3-theme" type="submit" name="submit">ยืนยัน</a>
+                            <button href="" style="text-decoration:none;" class="w3-button w3-round-large w3-theme" type="submit" name="submit">ยืนยัน</button>
                         </div>
                 </form>
         </div>

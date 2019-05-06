@@ -4,16 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
     <link rel="stylesheet" href="css/w3.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-pink.css">
     <title>Member</title>
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Itim", sans-serif
+        }
+
+        body {
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
 <body>
     <!-- Navbar -->
-    <?php include "php/navbarm.php" ?>
+    <?php include "selectnav.php" ?>
 
     <!-- Left Panel -->
     <div class="w3-container" style="margin-left:170px;">
@@ -35,14 +50,18 @@
                                 <div class="w3-">
                                     <table class="w3-table-all">
                                         <tr class="w3-padding w3-theme-l3">
-                                            <th class="w3-left-align">วันที่สั่งซื้อ</th>
-                                            <th class="w3-center">รายละเอียดสินค้า</th>
-                                            <th class="w3-right-align">สถานะออเดอร์</th>
+                                            <th class="">เลขออเดอร์</th>
+                                            <th class="">วันที่สั่งซื้อ</th>
+                                            <th class="">สถานะออเดอร์</th>
+                                            <th class="">สินค้า</th>
+                                            <th class="">จำนวน</th>
                                         </tr>
                                         <tr>
-                                            <td class="w3-left-align"></td>
-                                            <td class="w3-center"></td>
-                                            <td class="w3-right-align"></td>
+                                            <td class="">35</td>
+                                            <td class="">2019-05-07</td>
+                                            <td class="">จัดส่งเรียบร้อยแล้ว</td>
+                                            <td>เค้กชิ้นสตรอว์เบอรี่</td>
+                                            <td>10</td>
                                         </tr>   
                                     </table>
                                  </div>

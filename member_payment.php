@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php include "selectnav.php" ?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,16 +16,16 @@
 
     <body>
         <!-- Navbar -->
-        <?php include "php/navbarm.php" ?>
 
         <!-- กล่องรายละเอียดชำระเงิน         -->
         <div class="w3-row-padding w3-container w3-card w3-center w3-white" style="margin-top:20px; margin-left:300px; margin-right:300px ">
             <p> ธนาคารไทยพานิชย์ เลขที่บัญชี : 123-4-56789-0 </p><br>
             <p>หลักฐานการชำระเงิน</p><br>
-            <p class="w3-center-align"><input class=" w3-border  " style="width:300px;" name="imageUpload" type="file" required>
+            <button class="w3-btn w3-border"><a href="">เลือกไฟล์</a></button><br>
             <div class="w3-center">
-                <a class="w3-btn w3-theme w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">ยืนยันการชำระเงิน</a> ||
-                <a href="index.php" class="w3-center w3-round-large">ยกเลิก</a>
+                <button class="w3-btn w3-theme w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;">ยืนยันการชำระเงิน</button>
+                <button class="w3-btn w3-theme w3-center w3-round-large" style="margin-top:20px;margin-bottom:10px;"><a
+                        href="index.php">ยกเลิก</a></button>
             </div>
         </div>
     </body>

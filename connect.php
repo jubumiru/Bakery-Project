@@ -1,8 +1,3 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "bakery_project" ;
-// Create connection
-$conn = new mysqli($servername, $username, $password,$database);
+$conn = mysqli_connect("localhost","root","","bakery_project") or die("ไม่สามารถเชื่อมต่อฐานข้อมูลได้");
 ?>
